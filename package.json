@@ -5,35 +5,31 @@
   "author": "Jeff",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
-    "lint": "prettier-eslint '**/*.{js,vue}' --list-different --ignore '{dist,.nuxt}/**'",
-    "lint:styles": "stylelint '**/*.{css,vue}' --ip '{.nuxt,dist}/**'",
+    "develop": "gridsome develop",
+    "build": "gridsome build",
+    "explore": "gridsome explore",
+    "lint": "prettier-eslint '**/*.{js,vue}' --list-different --ignore '{.temp,dist,}/**'",
+    "lint:styles": "stylelint '**/*.{css,vue}' --ip '{.temp,dist}/**'",
     "test": "ava"
   },
   "dependencies": {
-    "@nuxtjs/google-analytics": "2.2.0",
-    "@nuxtjs/pwa": "3.0.0-beta.16",
-    "nuxt": "2.8.1",
-    "open-color": "^1.7.0"
+    "gridsome": "0.7.9",
+    "open-color": "1.7.0"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "1.1.x",
     "@vue/test-utils": "1.0.0-beta.29",
     "@zazen/eslint-config": "1.0.x",
     "@zazen/stylelint-config": "1.0.x",
-    "ava": "2.3.x",
+    "ava": "2.4.x",
     "browser-env": "3.2.x",
-    "eslint": "6.2.x",
+    "eslint": "6.6.x",
     "eslint-plugin-vue": "5.2.x",
     "husky": "3.0.x",
-    "lint-staged": "9.2.x",
+    "lint-staged": "9.4.x",
     "require-extension-hooks": "0.3.x",
     "require-extension-hooks-babel": "1.0.x",
     "require-extension-hooks-vue": "3.0.x",
-    "stylelint": "10.1.x"
+    "stylelint": "11.1.x"
   },
   "husky": {
     "hooks": {
