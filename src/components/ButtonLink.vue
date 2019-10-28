@@ -1,6 +1,6 @@
 .<template>
     <component
-        :is="href ? 'nuxt-link' : 'button'"
+        :is="href ? 'g-link' : 'button'"
         :to="href"
         class="
             button

@@ -33,36 +33,36 @@
             </div>
             <div class="w-full block lg:flex lg:items-center lg:w-auto">
                 <div class="text-sm lg:flex-grow">
-                    <nuxt-link
+                    <g-link
                         to="/community/"
                         class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
                     >
                         Community
-                    </nuxt-link>
-                    <nuxt-link
+                    </g-link>
+                    <g-link
                         to="/resources/"
                         class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
                     >
                         Resources
-                    </nuxt-link>
-                    <nuxt-link
+                    </g-link>
+                    <g-link
                         to="/events/"
                         class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
                     >
                         Events
-                    </nuxt-link>
-                    <nuxt-link
+                    </g-link>
+                    <g-link
                         to="/blog/"
                         class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
                     >
                         Blog
-                    </nuxt-link>
-                    <nuxt-link
+                    </g-link>
+                    <g-link
                         to="/about/"
                         class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white"
                     >
                         About
-                    </nuxt-link>
+                    </g-link>
                 </div>
             </div>
         </div>
