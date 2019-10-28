@@ -6,5 +6,5 @@
 
 module.exports = {
     siteName: 'Dev Edmonton Society',
-    plugins: [],
+    plugins: [{ use: 'gridsome-plugin-tailwindcss' }],
 }

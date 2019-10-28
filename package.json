@@ -13,6 +13,9 @@
     "test": "ava"
   },
   "dependencies": {
+    "@gridsome/source-filesystem": "0.6.2",
+    "@gridsome/source-graphql": "0.1.0",
+    "@gridsome/transformer-remark": "0.4.0",
     "gridsome": "0.7.9",
     "open-color": "1.7.0"
   },
@@ -24,6 +27,7 @@
     "browser-env": "3.2.x",
     "eslint": "6.6.x",
     "eslint-plugin-vue": "5.2.x",
+    "gridsome-plugin-tailwindcss": "2.2.x",
     "husky": "3.0.x",
     "lint-staged": "9.4.x",
     "require-extension-hooks": "0.3.x",
