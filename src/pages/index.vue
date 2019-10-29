@@ -1,5 +1,5 @@
 <template>
-    <div class="">
+    <Layout>
         <page-section bg="dim">
             <div class="flex flex-col md:flex-row">
                 <div class="flex-1 px-2 md:pr-0 md:pr-8">
@@ -95,7 +95,7 @@
                 >Special Thanks to our Community Partners</h3
             >
         </page-section>
-    </div>
+    </Layout>
 </template>
 
 <script>

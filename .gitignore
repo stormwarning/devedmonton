@@ -1,14 +1,15 @@
-# dependencies
+# DEPENDENCIES ========================================================
 node_modules
 
-# logs
-npm-debug.log
+# LOGS ================================================================
+*.log
 
-# Nuxt build
-.nuxt
-
-# Nuxt generate
+# GENERATED ===========================================================
+.cache
+src/.temp
 dist
-
-# Service worker
 sw.*
+
+# SECRETS =============================================================
+.env
+.env.*
